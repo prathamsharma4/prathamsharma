@@ -16,6 +16,7 @@ public class WebDriverListener implements WebDriverEventListener{
 	@Override
 	public void afterAlertAccept(WebDriver driver) {
 		Log.info("Accepted Alert");
+		System.out.println("empty");
 	}
 
 	@Override
