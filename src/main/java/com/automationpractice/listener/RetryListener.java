@@ -15,6 +15,7 @@ public class RetryListener implements IAnnotationTransformer {
 		if (retry == null) {
 			testannotation.setRetryAnalyzer(RetryFailedTestCases.class);
 			//error
+			System.out.println("empty");
 		}
 	}
 

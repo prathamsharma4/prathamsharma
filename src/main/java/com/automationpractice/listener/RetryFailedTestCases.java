@@ -12,7 +12,7 @@ public class RetryFailedTestCases implements IRetryAnalyzer {
 	@Override
 	public boolean retry(ITestResult arg0) {
 		if(retryCount < maxRetryCount) {
-			
+			System.out.println("empty");
 		}
 		return false;
 	}
